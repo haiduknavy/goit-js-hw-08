@@ -1,0 +1,1 @@
+{"mappings":"ACAA,QAAQ,GAAA,CAAI,KACZ,QAAQ,GAAA,CAAI","sources":["<anon>","src/js/02-video.js"],"sourcesContent":["var $c006019e0678fe87$exports = {};\nconsole.log(232);\nconsole.log(111);\n\n\n//# sourceMappingURL=02-video.8b28005b.js.map\n","console.log(232);\nconsole.log(111);\n"],"names":["console","log"],"version":3,"file":"02-video.8b28005b.js.map"}
