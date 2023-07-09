@@ -17,8 +17,20 @@ function onInputForm(e) {
 
 function onSubmitForm(e) {
     e.preventDefault();
-    e.currentTarget.reset();
-    localStorage.removeItem(STORAGE_KEY);
+    const {email, message} = e.currentTarget.elements;
+
+    const data = {
+        email: email.value,
+        message: message.value,
+    };
+    if (email.value.length === 0 || message.value.length === 0){
+        alert('Усі поля форми мають бути заповнені')
+    }else{
+        console.log(data);
+        e.currentTarget.reset();
+        localStorage.removeItem(STORAGE_KEY);
+    }
+    
 };
 
 function populateForm() {
